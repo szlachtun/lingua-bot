@@ -16,8 +16,6 @@ class Keyboard:
             btn2 = types.KeyboardButton('Translate text')
             markup.add(btn2)
 
-            btn3 = types.KeyboardButton('Meaning')
-            markup.add(btn3)
             return markup
 
         @staticmethod
@@ -73,10 +71,6 @@ class Keyboard:
         def error():
             markup = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=True, row_width=2)
 
-            btn2 = types.KeyboardButton('Try as text')
-            btn3 = types.KeyboardButton('Get meaning')
-            markup.row(btn2, btn3)
-
             btn4 = types.KeyboardButton('❌ Go back')
             markup.add(btn4)
             return markup
@@ -96,15 +90,3 @@ class Keyboard:
             btn4 = types.KeyboardButton('❌ Go back')
             markup.add(btn4)
             return markup
-
-    class Mean:
-        @staticmethod
-        def runtime():
-            markup = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=True, row_width=2)
-
-            btn1 = types.KeyboardButton('Get URL')
-            btn2 = types.KeyboardButton('Synonyms')
-            markup.row(btn1, btn2)
-
-            btn3 = types.KeyboardButton('❌ Go back')
-            markup.add(btn3)
