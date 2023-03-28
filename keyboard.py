@@ -1,6 +1,10 @@
 from telebot import types
 
+
 class Keyboard:
+    emojis = ['🇵🇱 PL', '🇺🇸 EN', '🇩🇪 DE', '🇷🇺 RU']
+    abb_to_emoji = {'pl': '🇵🇱', 'en': '🇺🇸', 'de': '🇩🇪', 'ru': '🇷🇺'}
+
     class General:
         @staticmethod
         def main():
