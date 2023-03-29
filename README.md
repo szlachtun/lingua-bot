@@ -13,4 +13,8 @@ context and **getting URL** to translation site
 
 Bot parses site with translations and represent information in convenient way
 
-PS: this parser I use *only* as an alternative to visiting translations sites. I *don't* use it for commercial and I *don't* let use it to others 
+PS: this parser I use *only* as an alternative to visiting translations sites.
+I *don't* use it for commercial and I *don't* let use it to others 
+
+*Used things: Telegram bot module (`telebot`), requests (`re`), HTML parser
+BeautifulSoup (`bs4`)*
